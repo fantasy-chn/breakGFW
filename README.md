@@ -4,7 +4,7 @@ yum upgrade
 # 安装wget
 yum -y install wget
 # v2ray
-下载：
+下载：  
 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/v2ray.sh"  
 赋予执行权限：  
 chmod +x v2ray.sh  
