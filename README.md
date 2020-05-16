@@ -13,30 +13,30 @@ yum -y install wget
  ntpdate us.pool.ntp.org  
 4. 将系统时间写入硬件时间：  
  hwclock --systohc  
-5.查看时间：  
+5. 查看时间：  
  系统时间date  
  硬件时间hwclock
 # 安装v2ray
-下载：  
-wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/v2ray.sh"  
-赋予执行权限：  
-chmod +x v2ray.sh  
-运行脚本：  
-./v2ray.sh  
+1. 下载：  
+ wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/v2ray.sh"  
+2. 赋予执行权限：  
+ chmod +x v2ray.sh  
+3. 运行脚本：  
+ ./v2ray.sh  
 # 安装BBR
-下载：  
-wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/bbr.sh"  
-赋予执行权限：  
-chmod +x bbr.sh  
-运行脚本：  
-./bbr.sh  
+1. 下载：  
+ wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/bbr.sh"  
+2. 赋予执行权限：  
+ chmod +x bbr.sh  
+3. 运行脚本：  
+ ./bbr.sh  
 # BestTrace查看路由回程
-下载：  
-wget https://cdn.ipip.net/17mon/besttrace4linux.zip  
-解压：  
-yum -y install wget zip  
-unzip besttrace*  
-赋予执行权限：  
-chmod +x besttrace  
-运行查询：  
-./besttrace 8.8.8.8
+1. 下载：  
+ wget https://cdn.ipip.net/17mon/besttrace4linux.zip  
+2. 解压：  
+ yum -y install wget zip  
+ unzip besttrace*  
+3. 赋予执行权限：  
+ chmod +x besttrace  
+4. 运行查询：  
+ ./besttrace 8.8.8.8
