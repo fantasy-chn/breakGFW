@@ -13,7 +13,7 @@ yum install -y ntp
 ntpdate us.pool.ntp.org  
 4.将系统时间写入硬件时间：  
 hwclock --systohc  
-5.查看时间：
+5.查看时间：  
 系统时间date/硬件时间hwclock
 # 安装v2ray
 下载：  
