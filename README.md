@@ -1,4 +1,6 @@
 # 更新软件源和系统
+
+	<h1>yum update </h1>
 yum update  
 yum upgrade
 # 安装wget
