@@ -4,18 +4,18 @@ yum upgrade
 # 安装wget
 yum -y install wget
 # 时区设置
-1.更改为中国上海时区：  
-	- cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime  
-		- 提示 cp: overwrite ‘/etc/localtime’?  输入 y 按回车确认  
-2.安装ntpdate工具：  
-	- yum install -y ntp  
-3.设置系统时间与网络时间同步：  
-	- ntpdate us.pool.ntp.org  
-4.将系统时间写入硬件时间：  
-	- hwclock --systohc  
+1. 更改为中国上海时区：  
+ cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime  
+  提示 cp: overwrite ‘/etc/localtime’?  输入 y 按回车确认  
+2. 安装ntpdate工具：  
+ yum install -y ntp  
+3. 设置系统时间与网络时间同步：  
+ ntpdate us.pool.ntp.org  
+4. 将系统时间写入硬件时间：  
+ hwclock --systohc  
 5.查看时间：  
-	- 系统时间date
-	- 硬件时间hwclock
+ 系统时间date  
+ 硬件时间hwclock
 # 安装v2ray
 下载：  
 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/v2ray.sh"  
