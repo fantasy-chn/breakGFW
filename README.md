@@ -1,5 +1,5 @@
 # 更新软件源和系统
-	yum update  
+	yum update
 	yum upgrade
 # 安装wget
 	yum -y install wget
