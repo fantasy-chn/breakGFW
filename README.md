@@ -29,3 +29,13 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2
 chmod +x bbr.sh  
 运行脚本：  
 ./bbr.sh  
+# BestTrace查看路由回程
+下载：  
+wget https://cdn.ipip.net/17mon/besttrace4linux.zip  
+解压：  
+yum -y install wget zip  
+unzip besttrace*  
+赋予执行权限：  
+chmod +x besttrace  
+运行查询：  
+./besttrace 8.8.8.8
