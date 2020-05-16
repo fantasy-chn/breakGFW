@@ -5,10 +5,10 @@
 	yum -y install wget
 # 时区设置
 1. 更改为中国上海时区：  
-	 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime  
-	  提示 cp: overwrite ‘/etc/localtime’?  输入 y 按回车确认  
+	cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime  
+	提示 cp: overwrite ‘/etc/localtime’?  输入 y 按回车确认  
 2. 安装ntpdate工具：  
-	 yum install -y ntp  
+	yum install -y ntp  
 3. 设置系统时间与网络时间同步：  
  ntpdate us.pool.ntp.org  
 4. 将系统时间写入硬件时间：  
