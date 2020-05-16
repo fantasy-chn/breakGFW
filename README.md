@@ -18,14 +18,14 @@
  硬件时间hwclock
 # 安装v2ray
 1. 下载：  
- wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/v2ray.sh"  
+ wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/v2ray.sh"  
 2. 赋予执行权限：  
  chmod +x v2ray.sh  
 3. 运行脚本：  
  ./v2ray.sh  
 # 安装BBR
 1. 下载：  
- wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/v2ray/master/bbr.sh"  
+ wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/bbr.sh"  
 2. 赋予执行权限：  
  chmod +x bbr.sh  
 3. 运行脚本：  
