@@ -26,6 +26,8 @@
 	4. 运行控制：
 	 /etc/init.d/shadowsocks-libev start | stop | restart | status
 	 启动，停止，重启，查看状态
+	5. 配置文件位置：
+	/etc/shadowsocks-**/config.json
 # 安装v2ray
 	1. 下载：
  	 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/v2ray.sh"
