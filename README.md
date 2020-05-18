@@ -16,6 +16,13 @@
 	5. 查看时间：
  	 系统时间date
  	 硬件时间hwclock
+# 安装SS
+	1. 下载：
+	 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/shadowsocks-all.sh"
+	2. 赋予执行权限：
+	 chmod +x shadowsocks-all.sh
+	3. 运行脚本并保存日志：
+	 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 # 安装v2ray
 	1. 下载：
  	 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/v2ray.sh"
