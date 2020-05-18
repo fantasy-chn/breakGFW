@@ -23,6 +23,9 @@
 	 chmod +x shadowsocks-all.sh
 	3. 运行脚本并保存日志：
 	 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+	4. 运行控制：
+	 /etc/init.d/shadowsocks-libev start | stop | restart | status
+	 启动，停止，重启，查看状态
 # 安装v2ray
 	1. 下载：
  	 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/v2ray.sh"
@@ -30,6 +33,8 @@
  	 chmod +x v2ray.sh
 	3. 运行脚本：
  	 ./v2ray.sh
+	4. 重启服务：
+	 systemctl restart v2ray
 # 安装BBR
 	1. 下载：
  	 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/bbr.sh"
