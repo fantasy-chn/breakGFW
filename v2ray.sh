@@ -125,9 +125,9 @@ function install_nginx(){
     mkdir /etc/nginx
     mkdir /etc/nginx/ssl
     mkdir /etc/nginx/conf.d
-    wget https://nginx.org/download/nginx-1.18.0.tar.gz >/dev/null 2>&1
-    tar xf nginx-1.18.0.tar.gz && rm nginx-1.18.0.tar.gz >/dev/null 2>&1
-    cd nginx-1.18.0
+    wget https://nginx.org/download/nginx-1.19.0.tar.gz >/dev/null 2>&1
+    tar xf nginx-1.19.0.tar.gz && rm nginx-1.19.0.tar.gz >/dev/null 2>&1
+    cd nginx-1.19.0
     ./configure --prefix=/etc/nginx --with-openssl=../openssl-1.1.1f --with-openssl-opt='enable-tls1_3' --with-http_v2_module --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-http_sub_module --with-stream --with-stream_ssl_module  >/dev/null 2>&1
     green "开始编译安装nginx，所需时间较长，请耐心等待~"
     sleep 3s
