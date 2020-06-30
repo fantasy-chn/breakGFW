@@ -37,6 +37,8 @@
  	 ./v2ray.sh
 	4. 重启服务：
 	 systemctl restart v2ray
+	5. 查看状态
+	 systemctl status v2ray
 # 安装BBR
 	1. 下载：
  	 wget -N --no-check-certificate "https://raw.githubusercontent.com/fantasy-chn/breakGFW/master/bbr.sh"
